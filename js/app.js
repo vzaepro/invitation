@@ -2,7 +2,7 @@
 
 const request = async (action, body = {}) => {
     // Ganti URL ini dengan URL Web App Google Apps Script Anda
-    let url = document.querySelector('body').getAttribute('data-url');
+    let url = document.querySelector('body').getAttribute('https://script.google.com/macros/s/AKfycbwuxQAb6RXK_suA_z1FgRhA98U9AmeRTTGw2Tg4mwH-eXr9_xXh3E79J5VZ056UJ6zB/exec');
     
     // Tambahkan aksi ke dalam body permintaan
     body.action = action;
